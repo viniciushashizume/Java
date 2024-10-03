@@ -15,7 +15,7 @@ public class EX03 {
     public double divisao(double num1, double num2){
         if(num2 == 0)
         {
-            System.out.println("Divisão impossível de ser realizada");
+            System.out.println("divisão impossível de ser realizada");
         }
         return num1/num2;
     }
