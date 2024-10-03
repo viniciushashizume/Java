@@ -5,10 +5,12 @@ public class EX04 {
         String nome;
         int idade;
         double peso;
+
         public void print()
         {
             System.out.println("Nome: " + nome + " Idade: " + idade + " Peso: " + peso);
         }
+
     }
    public static void main(String[] args)
    {
