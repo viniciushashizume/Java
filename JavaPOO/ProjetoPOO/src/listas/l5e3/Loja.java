@@ -12,14 +12,13 @@ public class Loja {
     public void adicionarProduto(int codigo, String nome, double precoUnitario) {
         if(verificarEstoque(codigo))
             System.out.println("Produto com o código " + codigo + " já está registrado. Estoque atualizado.");
-        //verificarEstoque(codigo);
+            //verificarEstoque(codigo);
         else{
             System.out.println("Produto com o codigo " + codigo + " registrado.");
             Produto produto = new Produto(codigo, nome, precoUnitario);
             //System.out.println("Test");
             this.produtos.add(produto);
         }
-        
     }
 
     public boolean verificarEstoque(int codigo)
@@ -43,6 +42,17 @@ public class Loja {
             if(produto.getCodigo() == codigo)
             {
                 produto.adicionarEstoque(quantidade);
+            }
+        }
+    }
+
+    public void venderProduto(int codigo, int quantidade)
+    {
+        for(Produto produto : produtos)
+        {
+            if(produto.getCodigo() == codigo)
+            {
+                produto.vender(quantidade);
             }
         }
     }

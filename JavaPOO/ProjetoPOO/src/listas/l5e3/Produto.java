@@ -54,6 +54,6 @@ public class Produto {
     }
 
     public void imprimirEstoque() {
-        System.out.println("Quantidade em estoque: " + this.quantidadeEstoque);
+        System.out.println("Codigo do produto " + this.codigo + " Nome do produto: " + this.nome + " Quantidade em estoque: " + this.quantidadeEstoque);
     }
 }
