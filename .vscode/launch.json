@@ -1,0 +1,141 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "bancoTeste",
+            "request": "launch",
+            "mainClass": "listas.Lista5_Ex1.bancoTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "livroTeste",
+            "request": "launch",
+            "mainClass": "listas.Lista5_Ex2.livroTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraTester",
+            "request": "launch",
+            "mainClass": "listas.aula15.CalculadoraTester",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "QuadrilateroTeste",
+            "request": "launch",
+            "mainClass": "listas.aula16.QuadrilateroTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "ImovelTeste",
+            "request": "launch",
+            "mainClass": "listas.aula16_2.ImovelTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "FormaGeometricaTeste",
+            "request": "launch",
+            "mainClass": "listas.aula17.FormaGeometricaTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "ex01",
+            "request": "launch",
+            "mainClass": "listas.ex04.ex01",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "LojaTeste",
+            "request": "launch",
+            "mainClass": "listas.l5e3.LojaTeste",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX01",
+            "request": "launch",
+            "mainClass": "projetos.EX01",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX02",
+            "request": "launch",
+            "mainClass": "projetos.EX02",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX03",
+            "request": "launch",
+            "mainClass": "projetos.EX03",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX04",
+            "request": "launch",
+            "mainClass": "projetos.EX04",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX05",
+            "request": "launch",
+            "mainClass": "projetos.EX05",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "EX06",
+            "request": "launch",
+            "mainClass": "projetos.EX06",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "MotorApp",
+            "request": "launch",
+            "mainClass": "projetos.ExercicioAPOO.JavaUI.MotorApp",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "projetos.ExercicioAPOO.Main",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaFX",
+            "request": "launch",
+            "mainClass": "projetos.ExercicioAPOO.JavaUI.MotorUI",
+            "vmArgs": "--module-path C:/Users/Vinicius/Documents/openjfx-24_windows-x64_bin-sdk/lib --add-modules javafx.controls,javafx.fxml"
+          }
+    ]
+}
