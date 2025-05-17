@@ -1,0 +1,114 @@
+----Acesso----
+
+tela 0 - seleção de perfil
+
+opcoes: Administrador | Aluno | Professor
+
+tela 1 - tela de login
+
+id:  (id seria gerado pelo bancado de dados aleatoriamente)
+senha:
+
+esqueci a senha
+
+tela 2 - recuperacao de senha
+
+envia uma solicitação para os administradores (provavelmente o professor tem acesso e auxilia os alunos na hora de logar, mas mesmo assim é necessário).
+
+----Perfil administrativo---- 
+
+tela 1: Opções
+(cada uma das telas de cadastro deve ter uma opção de visualizacao dos itens cadastrados. Em cada uma das telas de visualização, uma opção de exportar como planilha seria interessante)
+Cadastrar alunos
+Cadastrar turmas
+Cadastrar instituição
+Cadastrar professores
+Visualizar alunos
+
+tela 2: Cadastrar alunos
+
+campos de input: 
+	Nome completo
+	data de nascimento
+	instituição (aqui da pra colocar aquele widget que mostra as opções, pra mostra apenas as instituições cadastradas no sistema)
+	endereço | bairro | n°
+	n° de telefone de um responsavel
+
+tela 3: cadastrar instituição 
+campos de input: 
+	nome
+	endereco
+	telefone
+	nome do diretor/responsavel
+	email de contato
+
+tela 4: cadastro de instrutor
+	nome
+	eail
+	telefone
+	instituições que está trabalhando (vinculado)
+	data de inicio
+	data de saída
+
+tela 5: edição de turmas
+
+nessa tela aparecem as turmas com seus respectivos alunos
+
+a partir das idades dos alunos, são geradas turmas de 5 alunos, adotando algum algoritmo de ordenação (merge sort)
+
+deve haver um campo para edição das turmas, caso seja necessario remanejar alunos
+
+----Perfil do professor---- 
+
+tela 1: cadastrar atividades
+
+tipo de conteudo: vídeoaula, formulário, jogo
+espaço de input para o link da atividade + botao de confirmacao
+colocar tambemm a data e pra qual turma a atividade vai ser associada
+colocar um botao que leva para a tela de planejamento de aula
+
+tela 2: planejamento de aula (ps: aqui talvez de pra juntar a tela 1 e a 2 numa só, mas talvez fique muita informação)
+seleciona a turmm e a data
+associa as atividades que foram cadastradas para serem feitas naquele dia
+
+tela 3: registrar avaliação
+	dois tipos: socioemocional ou aprendizagem (academica) --> questionario ou questoes alternativas, fica a criterio do professor
+
+tela 4: registros de atividades (tela tanto para o professor quanto para o aluno)
+	para avaliar o desempenho individual do aluno/ ver as atividades que foram concluidas
+	ver a lista de presença
+
+tela 5: lançamento de nota
+	planilha com todos os alunos que fizeram determinada avaliação na data xx/xx/xxxx realizada pela turma x, com um espaço para o professor colocar a nota.
+
+tela 6: tela de relatórios
+	Relatório de Atividades por Aluno
+	Por mês ou por período.
+
+	Lista do que foi feito + desempenho.
+
+	2. Relatório de Rendimento da Turma
+	Consolidado mensal.
+
+	Comparativo entre turmas e entre meses.
+
+	3. Relatório Anual - Top Alunos
+	Exibe os 3 alunos com melhor desempenho de cada faixa etária.
+
+	todos exportáveis para PDF ou planilha.
+
+----Perfil do aluno---- 
+
+tela 1: visualizar lista de atividades disponibilizadas no dia 
+
+tela 2: tela de acesso ao conteudo, com ele sendo exibido (aqui poderão ter instruções deixadas pelo professor como mensagem )
+
+tela 3: visualizar desempenho (por data)
+
+
+----telas auxiliares---- (chatgpt sugeriu)
+
+Painel de Administração
+	Acesso geral a cadastros e relatórios.
+	Gestão de usuários e permissões.
+	Backup de dados.
