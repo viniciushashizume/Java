@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "Interface",
+            "request": "launch",
+            "mainClass": "SD.Exercicio1_2.Interface",
+            "projectName": "Java_42f3fbb9"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -136,6 +142,6 @@
             "request": "launch",
             "mainClass": "projetos.ExercicioAPOO.JavaUI.MotorUI",
             "vmArgs": "--module-path C:/Users/Vinicius/Documents/openjfx-24_windows-x64_bin-sdk/lib --add-modules javafx.controls,javafx.fxml"
-          }
+        }
     ]
 }
