@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LoginApp",
+            "request": "launch",
+            "mainClass": "Exercicios.JavaCRUD.LoginApp",
+            "projectName": "Java_42f3fbb9"
+        },
+        {
+            "type": "java",
             "name": "Interface",
             "request": "launch",
             "mainClass": "SD.Exercicio1_2.Interface",
