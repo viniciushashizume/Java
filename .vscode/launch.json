@@ -8,6 +8,13 @@
             "type": "java",
             "name": "LoginApp",
             "request": "launch",
+            "mainClass": "com.projeto.LoginApp",
+            "projectName": "crud-app"
+        },
+        {
+            "type": "java",
+            "name": "LoginApp",
+            "request": "launch",
             "mainClass": "Exercicios.JavaCRUD.LoginApp",
             "projectName": "Java_42f3fbb9"
         },
