@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LoginAppGUI",
+            "request": "launch",
+            "mainClass": "com.projeto.gui.LoginAppGUI",
+            "projectName": "crud-app"
+        },
+        {
+            "type": "java",
+            "name": "LoginAppGUI",
+            "request": "launch",
+            "mainClass": "com.projeto.GUI.LoginAppGUI",
+            "projectName": "crud-app"
+        },
+        {
+            "type": "java",
             "name": "LoginApp",
             "request": "launch",
             "mainClass": "com.projeto.LoginApp",
