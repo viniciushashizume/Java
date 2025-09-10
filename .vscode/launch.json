@@ -8,6 +8,20 @@
             "type": "java",
             "name": "LoginAppGUI",
             "request": "launch",
+            "mainClass": "gui.LoginAppGUI",
+            "projectName": "Java_1d9695fc"
+        },
+        {
+            "type": "java",
+            "name": "LoginApp",
+            "request": "launch",
+            "mainClass": "LoginApp",
+            "projectName": "Java_1d9695fc"
+        },
+        {
+            "type": "java",
+            "name": "LoginAppGUI",
+            "request": "launch",
             "mainClass": "com.projeto.gui.LoginAppGUI",
             "projectName": "crud-app"
         },

@@ -1,3 +1,7 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "JavaPOO/ProjetoPOO/src",
+        "crud-app/src/main/java/com/projeto"
+    ]
 }

@@ -11,7 +11,6 @@ public class BDUsuario {
     public void adicionarUsuario(Usuario usuario) {
         String sql = "INSERT INTO usuarios (nome_usuario, senha) VALUES (?, ?)";
 
-        // O try-with-resources garante que a conexão e o statement serão fechados
         try (Connection conn = ConexaoBD.conectar();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
